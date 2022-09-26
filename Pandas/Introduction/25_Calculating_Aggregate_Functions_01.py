@@ -11,3 +11,6 @@ pricey_shoes = orders.groupby('shoe_type').price.max()
 
 #Examine the object that you just created
 print(pricey_shoes)
+
+#What type of object is pricey_shoes?
+print(type(pricey_shoes))
